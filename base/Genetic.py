@@ -353,8 +353,8 @@ def genetic ():
     
     ## KHỞI TẠO
     population = []
-    popmax = 200
-    selectMax = 50
+    popmax = 3
+    selectMax = 2
     multation_rate = 0.9
     termination_criteria = 0
     generations = 0
@@ -455,7 +455,7 @@ def genetic ():
                 population[i] = best_individual["individual"]
     
     form = {
-        "perfect_individual": perfect_individual,
+        "perfect_set_of_weights": perfect_individual,
         "generations" : generations
     }
     
