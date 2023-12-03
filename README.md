@@ -3,6 +3,7 @@ Hệ thống đánh giá chỉ số sức khỏe bằng Fuzzy Logic + Giải thu
 
 ## dependency
 python_version = 3.7.1
+link: https://www.python.org/downloads/windows/
 
 
 
