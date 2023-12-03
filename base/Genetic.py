@@ -128,8 +128,7 @@ set_of_weights = [physical_weight, eye_weight, tooth_weight, hearing_weight, blo
 
 #Nạp dữ liệu mẫu từ Excel
 def nap_du_lieu_mau():
-    
-    list = pd.read_excel('C:/Users/ADM/Desktop/HK_9/dulieumau.xlsx', index_col=0, skiprows=1)
+    list = pd.read_excel('../mysite/static/data/dulieumau.xlsx', index_col=0, skiprows=1)
     print(list)
     print("-------------------------------------------------------------------------\n\n")
     mylist = list.to_json()
